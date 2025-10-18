@@ -1,0 +1,153 @@
+body{
+    padding: 0px auto;
+    margin: 0px auto;
+    box-sizing: border-box;
+    font-family: Averta, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow: hidden;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px black;
+    padding: 0;
+    border-radius: 10px;
+}
+.parent .one{
+   background-color: black;
+   margin: 0;
+   margin-left: 0;
+   color: white;
+   padding: 30px 0 0 0;
+   border-radius: 10px;
+}
+.row{
+   /* background-color: black; */
+   margin: 0;
+   margin-left: 0;
+   padding: 0;
+}
+.one h1{
+   font-weight: bolder;
+   font-size: 70px;
+   /* border-bottom: 3px solid blue; */
+   text-decoration: underline;
+   text-decoration-color: blue ;
+   text-decoration-thickness: 4px;
+    text-underline-offset: 10px;  
+    text-align: justify;  
+    padding: 0px 40px 0;  
+}
+.one h5{
+   font-weight: bolder;
+   text-align:left;
+   padding: 30px 40px 0; 
+
+}
+.two h2{
+   font-weight: bold;
+   font-size: 20px;
+   text-align:left;
+   padding: 30px 40px 0; 
+
+}
+.overflow{
+   overflow-y: auto; 
+   overflow-x: hidden;
+   height: 100vh;
+
+}
+.two .warning{
+   font-size: 20px;
+   text-align:left;
+   padding: 10px 40px 0; 
+
+}
+.two input[type="email"] {
+    margin: 0px 40px 0; 
+    padding: 10px 170px;
+}
+.two label {
+    margin: 10px 40px 0; 
+    font-size: 15px;
+}
+.two .Continue{
+    margin: 10px 40px 18px; 
+    /* font-size: 15px; */
+    padding: 10px 240px;
+    background-color: rgb(246, 246, 246);
+    border: none;
+    border-radius: 5px;
+    color: gray;
+}
+.two .Continue:active{
+    margin: 10px 40px 18px; 
+    /* font-size: 15px; */
+    padding: 10px 240px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.line-with-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: black; /* or your color */
+}
+
+.line-with-text::before,
+.line-with-text::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid gray; /* line color and thickness */
+  margin-left: 40px;
+  margin-right: 87px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.line-with-text:not(:empty)::before {
+  margin-right: 10px; /* space between text and line */
+}
+.line-with-text:not(:empty)::after {
+  margin-left: 10px;
+}
+.two .Sign{
+    margin: 18px 40px 0; 
+    /* font-size: 15px; */
+    padding: 10px ;
+    width: 540px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    border: 2px solid black;
+}   
+.two .Sign:hover{
+    margin: 18px 40px 0; 
+    /* font-size: 15px; */
+    padding: 10px ;
+    width: 540px;
+    background-color: black ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid black;
+} 
+.two h3{
+    text-align: center;
+    color: blue;
+    padding: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}    
+.two p{
+    padding: 0 40px;
+    color: gray;
+    font-size: 18px;
+}   
+.two a{
+    color: blue;
+    font-weight: bold;
+}   
