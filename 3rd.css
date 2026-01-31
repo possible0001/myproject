@@ -1,0 +1,92 @@
+.img{
+    width: 150px;
+}
+.login{
+    padding-left: 700px;
+    padding-top: 10px;
+}
+.login a{
+    color: orange;
+}
+.bd{
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+.ll a{
+   color: orange; 
+}
+.ll{
+   padding-top: 10px;
+   font-size: 18px;
+
+}
+.snd{
+    overflow-x: hidden;
+}
+.sndimg{
+    width: 800px;
+}
+.snd .immg{
+    width: 1000px;
+}
+.form{
+    padding-top: 40px;
+}
+.form  p{
+    font-size: 14px;
+    color: grey;
+}
+.form  label{
+    font-size: 10px;
+}
+.form input[type="text"]{
+    width: 400px;
+    
+    padding: 5px;
+    border: 1px solid rgb(201, 201, 201);
+   
+}
+.form input[type="email"]{
+    width: 400px;
+    
+    padding: 5px;
+    border: 1px solid rgb(201, 201, 201);
+   
+}
+.form input[type="password"]{
+    width: 400px;
+    
+    padding: 5px;
+    border: 1px solid rgb(201, 201, 201);
+   
+}
+.form input[type="number"]{
+    width: 400px;
+    
+    padding: 5px;
+    border: 1px solid rgb(201, 201, 201);
+   
+}
+.form select{
+    width: 400px;
+    
+    padding: 5px;
+    border: 1px solid rgb(201, 201, 201);
+   
+}
+.form .term{
+    font-size: 14px;
+    padding-left: 10px;
+   
+}
+.form .term a{
+    color: orange;
+   
+}
+.form  button{
+    background-color: orange;
+    padding: 15px;
+    width: 400px;
+    margin-top: 20px;
+    border: none;
+   
+}
